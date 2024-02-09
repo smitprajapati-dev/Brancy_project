@@ -4,6 +4,9 @@ import './style.css';
 import Header from './containers/Header';
 import Banner from './containers/Banner';
 import Categories from './containers/Categories';
+import TopSales from './containers/TopSales';
+import BlogSpot from './containers/blogs';
+import Footer from './containers/Footer';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -15,5 +18,8 @@ root.render(
     <Header />
     <Banner />
     <Categories />
+    <TopSales />
+    <BlogSpot />
+    <Footer />
   </div>,
 );

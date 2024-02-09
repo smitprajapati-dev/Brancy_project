@@ -5,7 +5,7 @@ import '../../style.css';
 function Categories() {
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-center w-full h-auto gap-8">
+      <div className="flex flex-wrap items-center justify-center  h-auto gap-8">
         <Card
           title="Hair Care"
           badge="new"

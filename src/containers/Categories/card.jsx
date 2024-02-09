@@ -20,7 +20,7 @@ function Card({ title, imageUrl, className, badge }) {
   return (
     <div
       className={clsx(
-        'flex flex-col gap-5 items-center justify-center max-w-40 min-h-60 aspect-4/3 md:aspect-3/4 rounded-2xl rotate-container relative max-lg:mt-7 ',
+        'flex flex-col gap-5 items-center justify-center max-w-40 min-h-60 aspect-4/3 md:aspect-3/4 rounded-2xl rotate-container relative max-lg:mt-7 mt-10',
         {
           [className]: !!className,
         },

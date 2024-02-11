@@ -5,12 +5,14 @@ import PersonIcon from '../../../public/icons/person.svg';
 
 function Header() {
   return (
-    <header className="flex items-center w-full z-50 gap-10 px-container py-5">
+    <header className="flex items-center w-full z-50 gap-10 px-container fixed">
       <div className=" flex justify-center">
         <a href="#">
           <img
             src="https://template.hasthemes.com/brancy/brancy/assets/images/logo.webp"
             alt="headIcon"
+            height={70}
+            width={70}
           />
         </a>
       </div>

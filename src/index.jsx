@@ -7,6 +7,7 @@ import Categories from './containers/Categories';
 import TopSales from './containers/TopSales';
 import BlogSpot from './containers/blogs';
 import Footer from './containers/Footer';
+import ProductsDivider from './containers/ProductsDivider';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -19,6 +20,7 @@ root.render(
     <Banner />
     <Categories />
     <TopSales />
+    <ProductsDivider />
     <BlogSpot />
     <Footer />
   </div>,

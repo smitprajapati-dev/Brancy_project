@@ -28,7 +28,7 @@ function Banner() {
             <input
               type="button"
               value="Buy Now"
-              className="px-4 py-3 tracking-[5px] border-2 border-[#231942] hover:bg-[#ff6565] hover:border-[#ff6565] hover:text-white rounded-full w-fit font-semibold"
+              className="px-4 py-3 tracking-[5px] border-2 border-[#231942] hover:bg-[#ff6565] hover:border-[#ff6565] hover:text-white hover:transition hover:delay-150 hover:duration-300 hover:ease-in-out  rounded-full w-fit font-semibold"
             />
           </div>
         </div>
